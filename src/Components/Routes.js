@@ -1,4 +1,10 @@
 import React from 'react';
+import {
+    Route,
+    NavLink,
+    HashRouter,
+    Switch
+  } from "react-router-dom";
 
     function Routes () {
 
