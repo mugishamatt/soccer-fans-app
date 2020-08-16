@@ -6,3 +6,8 @@ body {
 h1,ul, li {
   font-family: sans-serif;
 }
+ul.header li {
+  /* display: inline; */
+  list-style-type: none;
+  margin: 0;
+}
