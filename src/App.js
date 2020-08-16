@@ -3,7 +3,7 @@ import Routes from './Routes'
 import './App.css';
 import Footer from "./Components/Footer"
 
-const  App=() =>{
+const App=() =>{
   return (
     <div className="App">
       <Routes />
