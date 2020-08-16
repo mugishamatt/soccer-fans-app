@@ -2,16 +2,19 @@ import React from 'react';
 import {
     Route,
     NavLink,
-    HashRouter,
+    Router,
     Switch
   } from "react-router-dom";
 
     function Routes () {
 
         return (
+            <Router>
             <div>
-                <h1>heyy</h1>
+                <h1>Soccer fans Application</h1>
+                
             </div>
+            </Router>
           );
     }
  
