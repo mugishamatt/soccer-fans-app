@@ -16,3 +16,10 @@ ul.header {
   background-color: #111;
   padding: 0;
 }
+ul.header li a {
+  color: #FFF;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 20px;
+  display: inline-block;
+}
