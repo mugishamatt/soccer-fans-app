@@ -11,3 +11,8 @@ ul.header li {
   list-style-type: none;
   margin: 0;
 }
+ul.header {
+  display: flex;
+  background-color: #111;
+  padding: 0;
+}
