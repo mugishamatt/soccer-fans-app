@@ -35,5 +35,13 @@ content li {
   text-align: center;
   color:black;
   padding-top: 20px;
+  position: relative;
+  
+
+
+}
+.footer-text{
+  position: fixed;
+  bottom: 10px
 
 }
