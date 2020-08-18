@@ -9,7 +9,7 @@ const App=() =>{
     <div className="App">
       <Routes />
       <Footer/>
-    
+      
 
     </div>
   );
