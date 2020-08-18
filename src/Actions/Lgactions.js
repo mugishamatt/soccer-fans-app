@@ -1,5 +1,5 @@
 
+import React from 'react';
+import {leagueActions} from "./actionTypes"
 
-export const leagueActions={
-fetchLeagueData:"FETCH_LEAGUE_DATA"
-}
+
