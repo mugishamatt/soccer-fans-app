@@ -17,3 +17,4 @@ function LeagueReducer (state=initialState,action){
     }
 
 }
+export default LeagueReducer;
