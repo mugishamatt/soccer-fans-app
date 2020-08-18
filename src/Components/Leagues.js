@@ -1,8 +1,21 @@
 import React from 'react';
-function Leagues() {
-    return (
-        <h1>list</h1>
 
-    )
+
+function League({leagueList}) {
+  return (
+    <div >
+     {leagueList && leagueList.length && leagueList.map((item,index)=>{
+       return(
+         <div>
+           <h2>Name:</h2>
+           {item.title}
+           </div>
+       )
+     })
+    }
+    
+    </div>
+  );
 }
-export default Leagues;
+
+export default League;
