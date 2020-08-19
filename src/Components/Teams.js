@@ -1,7 +1,9 @@
 import React from 'react';
+import { render } from '@testing-library/react';
 
+class Teams extends React.Component {
 
-const Teams =()=>{
+     render(){
         return (  
             <div>
                   {this.props.teamList && this.props.teamList.map(team=>{
@@ -10,6 +12,7 @@ const Teams =()=>{
             </div>
         );
     }
-
+}
  
 export default Teams;
+
