@@ -3,7 +3,8 @@ import { leagueActions } from '../Actions/actionTypes';
 
 const initialState={
     data:[],
-    isloading:false
+    isloading:false,
+    showTeams:false
 }
 
 function LeagueReducer (state=initialState,action){
@@ -12,6 +13,10 @@ function LeagueReducer (state=initialState,action){
             return Object.assign({},state,{
                 data:action.payload
 
+            })
+        case "TOGGLE_SHOW_TEAMS":
+            return Object.assign({},state,{
+                showTeams:action.payload
             })
             default:
             return state
