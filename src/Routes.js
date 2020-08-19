@@ -4,6 +4,8 @@ import Leagues from "./Components/Leagues"
 import Teams from "./Components/Teams"
 import LiveScore from "./Components/LiveScore"
 import Tables from "./Components/Tables"
+import SearchPlayer from "./Components/SearchPlayer"
+
 
 import {
   Route,
@@ -23,6 +25,8 @@ class Routes extends React.Component {
             <li><NavLink to="/">Home</NavLink></li>
             <li><NavLink to="/leagues">Leagues</NavLink></li>
             <li><NavLink to="/Teams">Teams</NavLink></li>
+            <li><NavLink to="/SearchPlayer">SearchPlayer</NavLink></li>
+
             <li><NavLink to="/LiveScore">LiveScore</NavLink></li>
             <li><NavLink to="/Tables">Tables</NavLink></li>
           </ul>
@@ -31,8 +35,10 @@ class Routes extends React.Component {
               <Route exact path="/" component={Home} />
               <Route path="/leagues" component={Leagues} />
               <Route path="/Teams" component={Teams}/>
+              <Route path="/SearchPlayer" component={SearchPlayer}/>
               <Route path="/LiveScore" component={LiveScore}/>
               <Route path="/Tables" component={Tables}/>
+
 
             </div>
           </Switch>
