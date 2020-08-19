@@ -10,11 +10,10 @@ class League extends Component {
         super(props);
      
     } componentDidMount(){
-        fetcLeagueList("https://www.scorebat.com/video-api/v1/",this.props.dispatch);
+        fetcLeagueList("https://www.thesportsdb.com/api/v1/json/1/all_leagues.php",this.props.dispatch);
         console.log(fetcLeagueList)
         console.log("here")
     }
-// https://www.scorebat.com/video-api/v1/
     componentDidUpdate(){
         console.log("Update")
     }
