@@ -7,9 +7,11 @@ import * as serviceWorker from './serviceWorker';
 import { createStore } from 'redux'
 import { Provider } from 'react-redux';
 import { composeWithDevTools } from 'redux-devtools-extension'
+import routeReducer from "./reducers/index"
+
 
 const store=createStore(
-  routeRedoucer,composeWithDevTools()
+  routeReducer,composeWithDevTools()
 )
 
 ReactDOM.render(
