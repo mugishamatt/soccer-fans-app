@@ -1,8 +1,8 @@
-import {combinerReducers} from 'redux'
+import {combineReducers} from 'redux'
 
 import LeagueReducer from "./Leagues"
 
-const routeReducer = combinerReducers({
+const routeReducer = combineReducers({
     League:LeagueReducer,
 })
 export default routeReducer;
