@@ -8,7 +8,7 @@ const initialState={
 
 function LeagueReducer (state=initialState,action){
     switch(action.type){
-        case FETCH_LEAGUE_DATA:
+        case leagueActions.fetchLeagueData:
             return Object.assign({},state,{
                 data:action.payload
 
