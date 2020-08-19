@@ -1,17 +1,15 @@
 import React from 'react';
 
-class Teams extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {  }
-    }
-    render() { 
+
+const Teams =()=>{
         return (  
             <div>
-                   <h1>teams</h1>
+                  {this.props.teamList && this.props.teamList.map(team=>{
+                       return(<h1>Team Name: {team.strTeam}</h1> )
+                   })}
             </div>
         );
     }
-}
+
  
 export default Teams;
