@@ -4,3 +4,5 @@
    fans will also be able to seach for any player and find indormation about him such as:age,curent team.
    
    if time Allows i will add more links like livescore and match fixtures
+
+here is the theployed link :https://epic-borg-d2dd14.netlify.app/
